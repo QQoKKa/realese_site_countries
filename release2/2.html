@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="goBack()"></button>
+    <p>powrót</p>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+<style>
+    button {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-image: url("image/back.png");
+        background-color: black;
+        background-size: 150px;
+        border: none;
+        left: 5%;
+        top: 2%;
+    }
+    body {
+        background-image: url("image/screen.png");
+    }
+    p {
+        position: absolute;
+        color: white;
+        font-size: 40px;
+        font-family: cursive;
+        left: 14%;
+        top: 2%;
+    }
+</style>
+</body>
+</html>
